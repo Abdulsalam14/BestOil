@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  width: 70%;
+  margin: auto;
 }
 
 .App-logo {
@@ -35,4 +37,132 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.benzin{
+  width: 48%;
+  border: 1px solid springgreen;
+}
+
+
+
+.benzin-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.benzin-container>div{
+  width: 70%;
+  display: flex;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+
+
+
+.benzin h3{
+  width: 30%;
+}
+
+
+
+select{
+  width: 50% !important;
+}
+
+.benzin h2{
+  margin-bottom: 50px;
+}
+
+
+.benzin-second>div{
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.benzin span {
+  margin-left: 10px;
+}
+
+.checkbox-benzin{
+  margin-bottom: 20px;
+}
+
+
+
+.benzin-third-left{
+  width: 30%;
+  border: 1px solid lightgray;
+  margin-right: 50px;
+}
+
+.benzin-third-right>div{
+  display: flex;
+  align-items: center;
+}
+
+
+.benzin-third-right input{
+  width: 50%;
+}
+
+
+
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.miniCafe{
+  width: 48%;
+  border: 1px solid red;
+}
+
+.miniCafe input{
+  width: 100px;
+  margin-left: 20px;
+}
+
+
+.cafe-first{
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  margin-bottom: 35px;
+  align-items:last baseline;
+}
+
+.cafe-sect{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 14px;
+}
+
+.cafe-sect>input{
+  width: 10%;
+}
+.cafe-sect>span{
+  width: 50%;
+  text-align: left;
+  margin-left: 10px;
+}
+
+
+
+
+.amount{
+  border: 1px solid lightgray;
+
+  padding: 30px;
+  width: 60%;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 30px;
 }
